@@ -1,0 +1,36 @@
+baseurl                  = "https://wilab.ml"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "WiL Concept"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "main"                           # What to call the home page link, link will not be rendered if empty
+    footerText           = "World Innovation Lab Concept."
+
+# Metadata for Open Graph and Twitter
+    description          = "World Innovation Lab Concept Site."               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "WiL Concept"
+    # rss                = ""
+
+[params.videoBackground]
+    overlay = "rgba(0, 0, 0, 0.4)" # optional
+
+[[params.mainMenu]]
+    link = ""
+    text = "Hello."
+
+[[params.mainMenu]]
+    link = ""
+    text = "WiL Placeholder."
+
+[imaging]
+    quality = 75
