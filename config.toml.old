@@ -1,4 +1,0 @@
-baseURL = 'https://wilab.ml/'
-languageCode = 'en-us'
-title = 'WiL Concept Site'
-theme = "sam"
